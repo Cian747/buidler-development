@@ -1,0 +1,16 @@
+.ib-page{width:100%}.ib-page .ib-element{box-sizing:border-box}.ib-page .ib-container{display:flex;flex-direction:column;gap:16px}.ib-page .ib-button{display:inline-block;padding:12px 20px;background:#1d4ed8;color:#fff;text-decoration:none;border-radius:4px}.ib-page .ib-spacer{display:block;width:100%}.ib-page img{max-width:100%;height:auto}
+
+.ib-page .ib-container{display:flex;box-sizing:border-box}.ib-page .ib-container>*{box-sizing:border-box}.ib-page .ib-heading h1,.ib-page .ib-heading h2,.ib-page .ib-heading h3,.ib-page .ib-heading h4,.ib-page .ib-text p{margin-top:0}.ib-page .ib-image img{display:block;max-width:100%;height:auto}.ib-page .ib-divider hr{border:0;border-top:1px solid #d0d5dd}.ib-page .ib-button a{display:inline-block;text-decoration:none}
+
+.ib-page{color:var(--ib-text,#333);background-color:var(--ib-background,transparent);font-family:var(--ib-font-family,system-ui,sans-serif)}.ib-page .ib-button{background:var(--ib-primary,#2271b1)}
+
+/* v0.5.1: shared design-system tokens. Values are supplied by Global_Styles::get_css(). */
+.ib-page{font-family:var(--ib-font-body,var(--ib-font-family,system-ui,sans-serif));font-size:var(--ib-font-size-body,16px);line-height:var(--ib-line-height-body,1.6);color:var(--ib-text,#333333);background-color:var(--ib-background,transparent)}
+.ib-page h1,.ib-page h2,.ib-page h3,.ib-page h4{font-family:var(--ib-font-heading,var(--ib-font-family,system-ui,sans-serif));font-weight:var(--ib-font-weight-heading,700);line-height:var(--ib-line-height-heading,1.2)}
+.ib-page h1{font-size:var(--ib-font-size-h1,40px)}.ib-page h2{font-size:var(--ib-font-size-h2,32px)}.ib-page h3{font-size:var(--ib-font-size-h3,26px)}.ib-page h4{font-size:var(--ib-font-size-h4,21px)}
+.ib-page .ib-container{gap:var(--ib-space-md,16px)}
+.ib-page .ib-button{border-radius:var(--ib-border-radius,8px);box-shadow:var(--ib-shadow-sm,none)}
+.ib-page .ib-divider hr{border-color:var(--ib-border-color,#D0D5DD);border-width:var(--ib-border-width,1px)}
+
+/* Safe defaults also support new pages before an administrator saves the shared design system. */
+.ib-page{--ib-primary:#17365D;--ib-secondary:#2874A6;--ib-accent:#E3A72F;--ib-text:#333333;--ib-background:#FFFFFF;--ib-font-family:system-ui,sans-serif;--ib-font-body:system-ui,sans-serif;--ib-font-heading:system-ui,sans-serif;--ib-font-size-body:16px;--ib-font-size-h1:40px;--ib-font-size-h2:32px;--ib-font-size-h3:26px;--ib-font-size-h4:21px;--ib-font-weight-body:400;--ib-font-weight-heading:700;--ib-line-height-body:1.6;--ib-line-height-heading:1.2;--ib-space-xs:4px;--ib-space-sm:8px;--ib-space-md:16px;--ib-space-lg:24px;--ib-space-xl:40px;--ib-space-xxl:64px;--ib-border-radius:8px;--ib-border-width:1px;--ib-border-color:#D0D5DD;--ib-shadow-sm:0 1px 3px rgba(0,0,0,.12);--ib-shadow-md:0 4px 12px rgba(0,0,0,.12);--ib-shadow-lg:0 10px 30px rgba(0,0,0,.15)}
